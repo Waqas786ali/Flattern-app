@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>FLATTERN</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top bg-light flex px-5">
+            <div>
+                <h1 class="">FLATTERN</h1>
+            </div>
+            <div class="navbar_list pt-3">
+                <ul class="d-flex navbar_list1 justify-content-end">
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger " href="./index.html">HOME</a></li>
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="./about.html">ABOUT</a></li>
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="./services.html">SERVICES</a></li>
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="./testimation.html">TESTIMONIALS</a></li>
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="./pricing.html">PRICING</a></li>
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="./portfolio.html">PROTFOLIO</a></li>
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger active1" href="./blog.html">BLOG</a></li>
+                    <li class="list-group-item px-3 ">
+                        <a class="h6 sm-h1 navbar_list_drop text-decoration-none hover-text-danger" href="#">DROP DOWN <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="drop_down">
+                            <ul>
+                                <li class="list-group-item"><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="#">DROP DOWN 1</a></li>
+                                <li class="list-group-item"><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="#">DROP DOWN 2</a></li>
+                                <li class="list-group-item"><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="#">DROP DOWN 3</a></li>
+                                <li class="list-group-item"><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="#">DROP DOWN 4</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item px-3 "><a class="h6 sm-h1 text-decoration-none hover-text-danger" href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="section_page_heading px-5 pb-3 text-white d-grid"
+        style="grid-template-columns: repeat(2,1fr); padding-top:5rem !important; background-color: #2b2320;">
+        <div>
+            <h2 class="h3 pt-2">Blog</h2>
+        </div>
+        <div class="text-end">
+            <h3 class="h5 pt-3">
+                <span class="text-danger">Home</span> / Blog
+            </h3>
+        </div>
+    </section>
+    <section class="section_blog d-flex  gap-5 p-5">
+        <div class="d-grid gap-5" style="grid-template-columns: repeat(1,1fr);">
+            <div class="shadow-lg">
+                <div
+                    style="background-image: url(./img/blog-1.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; height: 20rem;">
+                </div>
+                <div class="px-5 py-2 pb-5">
+                    <a href="#" class="text-decoration-none text-black">
+                        <h2 class="fw-semibold text">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+                        <ul class="d-flex gap-5 py-1 blog_icon">
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-solid fa-person"></i>
+                                John Doe
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-regular fa-clock"></i>
+                                Jan 1, 2020
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-brands fa-rocketchat"></i>
+                                12 Comments
+                            </li>
+                        </ul>
+                    </a>
+                    <p>
+                        Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore. 
+                    </p>
+                    <div class="text-end pt-3 text_btn">
+                        <a class="text-decoration-none py-2 px-3 bg-danger text-white rounded" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg">
+                <div
+                    style="background-image: url(./img/blog-2.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; height: 20rem;">
+                </div>
+                <div  class="px-5 py-2 pb-5 ">
+                    <a href="#" class="text-decoration-none text-black">
+                        <h2 class="fw-semibold text">Nisi magni odit consequatur autem nulla dolorem</h2>
+                        <ul class="d-flex gap-5 py-1 blog_icon">
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-solid fa-person"></i>
+                                John Doe
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-regular fa-clock"></i>
+                                Jan 1, 2020
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-brands fa-rocketchat"></i>
+                                12 Comments
+                            </li>
+                        </ul>
+                    </a>
+                    <p>Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam. Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio. </p>
+                    <div class="text-end pt-3 text_btn">
+                        <a class="text-decoration-none py-2 px-3 bg-danger text-white rounded" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg">
+                <div
+                    style="background-image: url(./img/blog-3.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; height: 20rem;">
+                </div>
+                <div class="px-5 py-2 pb-5 ">
+                    <a href="#" class="text-decoration-none text-black">
+                        <h2 class="fw-semibold text">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</h2>
+                        <ul class="d-flex gap-5 py-1 blog_icon">
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-solid fa-person"></i>
+                                John Doe
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-regular fa-clock"></i>
+                                Jan 1, 2020
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-brands fa-rocketchat"></i>
+                                12 Comments
+                            </li>
+                        </ul>
+                    </a>
+                    <p>Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis. Doloremque est saepe laborum aut. Ipsa cupiditate ex harum at recusandae nesciunt. Ut dolores velit. </p>
+                    <div class="text-end pt-3 text_btn">
+                        <a class="text-decoration-none py-2 px-3 bg-danger text-white rounded" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow-lg">
+                <div
+                    style="background-image: url(./img/blog-4.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; height: 20rem;">
+                </div>
+                <div class="px-5 py-2 pb-5">
+                    <a href="#" class="text-decoration-none text-black">
+                        <h2 class="fw-semibold text">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</h2>
+                        <ul class="d-flex gap-5 py-1 blog_icon">
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-solid fa-person"></i>
+                                John Doe
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-regular fa-clock"></i>
+                                Jan 1, 2020
+                            </li>
+                            <li class="list-group-item" style="color: gray;">
+                                <i class="px-1 fa-brands fa-rocketchat"></i>
+                                12 Comments
+                            </li>
+                        </ul>
+                    </a>
+                    <p>Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui. Quia sed sunt. Ea asperiores expedita et et delectus voluptates rerum. Id saepe ut itaque quod qui voluptas nobis porro rerum. Quam quia nesciunt qui aut est non omnis. Inventore occaecati et quaerat magni itaque nam voluptas. Voluptatem ducimus sint id earum ut nesciunt sed corrupti nemo. </p>
+                    <div class="text-end pt-3 text_btn">
+                        <a class="text-decoration-none py-2 px-3 bg-danger text-white rounded" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-5">
+                <ul class="d-flex gap-3 justify-content-center next">
+                    <li class="list-group-item"><a class="text-decoration-none py-2 px-3 text-black" href="#">1</a></li>
+                    <li class="list-group-item"><a class="active text-decoration-none py-2 px-3" href="#">2</a></li>
+                    <li class="list-group-item"><a class="text-decoration-none py-2 px-3 text-black" href="#">3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="shadow-lg child px-1 py-5" style="height: 70rem;">
+            <h4 class="px-3 fw-semibold py-1">Search</h4>
+            <div class="px-3">
+                <form action="" class="d-grid text_btn" style="grid-template-columns: 70% 15%;">
+                    <input type="text">
+                    <a class="text-center bg-danger text-white p-2" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </form>
+            </div>
+            <h4 class="px-3 fw-semibold py-3">Categories</h4>
+            <ul class="Categories">
+                <li class="list-group-item"><a class="text-decoration-none text-black" href="#">General <span style="color: gray;">(25)</span></a></li>
+                <li class="list-group-item"><a class="text-decoration-none text-black" href="#">Lifestyle <span style="color: gray;">(12)</span></a></li>
+                <li class="list-group-item"><a class="text-decoration-none text-black" href="#">Travel <span style="color: gray;">(5)</span></a></li>
+                <li class="list-group-item"><a class="text-decoration-none text-black" href="#">Design <span style="color: gray;">(22)</span></a></li>
+                <li class="list-group-item"><a class="text-decoration-none text-black" href="#">Creative <span style="color: gray;">(8)</span></a></li>
+                <li class="list-group-item"><a class="text-decoration-none text-black" href="#">Educaion <span style="color: gray;">(14)</span></a></li>
+            </ul>
+            <h4 class="px-3 fw-semibold py-1">Recent Posts</h4>
+            <ul class=" post">
+                <li class="d-flex gap-2">
+                    <div>
+                        <img src="./img/blog-recent-1.jpg" style="width: 80px;" alt="">
+                    </div>
+                    <div>
+                        <h5 class="h6">Nihil blanditiis at in nihil autem</h5>
+                        <p class="fst-italic" style="color: gray;">Jan 1, 2020</p>
+                    </div>
+                </li>
+                <li class="d-flex gap-2">
+                    <div>
+                        <img src="./img/blog-recent-2.jpg" style="width: 80px;" alt="">
+                    </div>
+                    <div>
+                        <h5 class="h6">Quidem autem et impedit</h5>
+                        <p class="fst-italic" style="color: gray;">Jan 1, 2020</p>
+                    </div>
+                </li>
+                <li class="d-flex gap-2">
+                    <div>
+                        <img src="./img/blog-recent-3.jpg" style="width: 80px;" alt="">
+                    </div>
+                    <div>
+                        <h5 class="h6">Id quia et et ut maxime similique  ut</h5>
+                        <p class="fst-italic" style="color: gray;">Jan 1, 2020</p>
+                    </div>
+                </li>
+
+                <li class="d-flex gap-2">
+                    <div>
+                        <img src="./img/blog-recent-4.jpg" style="width: 80px;" alt="">
+                    </div>
+                    <div>
+                        <h5 class="h6">Laborum corporis quo dara net para</h5>
+                        <p class="fst-italic" style="color: gray;">Jan 1, 2020</p>
+                    </div>
+                </li>
+                <li class="d-flex gap-2">
+                    <div>
+                        <img src="./img/blog-recent-5.jpg" style="width: 80px;" alt="">
+                    </div>
+                    <div>
+                        <h5 class="h6">Et dolores corrupti quae illo quod dolor</h5>
+                        <p class="fst-italic" style="color: gray;">Jan 1, 2020</p>
+                    </div>
+                </li>
+            </ul>
+            <h4 class="px-3 fw-semibold py-3">Tags</h4>
+            <ul class="d-grid gap-2 tags" style="grid-template-columns: repeat(4,1fr);">
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">App</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">IT</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Business</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Mac</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Design</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Office</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Creative</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Studio</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Smart</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Tips</a></li>
+                <li class="list-group-item mt-3"><a class="border text-decoration-none text-black py-2 px-3" href="#">Marketing</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer class="px-5 py-5 pb-3 text-white" style="background: #14100f;">
+        <div class="footer_contant d-grid sm-gap-2" style="grid-template-columns: repeat(2,1fr);">
+            <div class="footer_contant_child">
+                <h1 class="h3">FLATTERN</h1>
+                <p style="color: #b4aca8;" class="pt-1">A108 Adam Street <br>
+                    New York, NY 535022 <br>
+                    United States </p>
+                <h4 class="h6 pt-3" style="color: #b4aca8;"><strong>Phone:</strong> +92 3256 5831 68</h4>
+                <h4 class="h6" style="color: #b4aca8;"><strong>Email:</strong> Shehrazali786@gmail.com</h4>
+            </div>
+            <div class="footer_contant_child">
+                <h2 class="h5 px-4 fw-semibold">Useful Links</h2>
+                <ul>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="./index.html" class="text-decoration-none"
+                            style="color: #b4aca8;">Home</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="./about.html" class="text-decoration-none"
+                            style="color: #b4aca8;">About us</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="./services.html" class="text-decoration-none"
+                            style="color: #b4aca8;">Services</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="#" class="text-decoration-none"
+                            style="color: #b4aca8;">Terms of service</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="#" class="text-decoration-none"
+                            style="color: #b4aca8;">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_contant_child ">
+                <h2 class="h5 px-4 fw-semibold">Our Services</h2>
+                <ul>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="#" class="text-decoration-none"
+                            style="color: #b4aca8;">Web Design</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="#" class="text-decoration-none"
+                            style="color: #b4aca8;">Web Development</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="#" class="text-decoration-none"
+                            style="color: #b4aca8;">Product Management</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="#" class="text-decoration-none"
+                            style="color: #b4aca8;">Marketing</a></li>
+                    <li class="list-group-item py-2"><i class="fa-solid fa-chevron-right px-2 text-danger"
+                            style="font-size: 12px;"></i><a href="#" class="text-decoration-none"
+                            style="color: #b4aca8;">Graphic Design</a></li>
+                </ul>
+            </div>
+            <div class="footer_contant_child">
+                <h2 class="h5 fw-semibold">Join Our Newsletter</h2>
+                <p style="color: #b4aca8;" class="py-1">Tamen quem nulla quae legam multos aute sint culpa legam noster
+                    magna</p>
+                <div>
+                    <form action="" class="d-grid footer_form" style="grid-template-columns: 70% 20%;">
+                        <input class="py-2 px-3" type="text">
+                        <a href="#" class="text-decoration-none py-2 px-2 text-center  bg-danger text-white">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copy pt-5 d-grid" style="grid-template-columns: repeat(2,1fr);">
+            <div>
+                <h4 style="color: #b4aca8;" class="h6">© Copyright <strong>Flattern.</strong> All Rights Reserved </h4>
+                <h5 style="color: #b4aca8;" class="h6">Designed by <a href="#"
+                        class="text-decoration-none text-danger">Shehrazali</a></h5>
+            </div>
+            <div class="text-end">
+                <ul class="d-flex gap-2 copy_list">
+                    <li class="list-group-item"><a href="#" style="font-size: 15px;"
+                            class="p-2 bg-danger text-white rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="list-group-item"><a href="#" style="font-size: 15px;"
+                            class="p-2 bg-danger text-white rounded-circle"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="list-group-item"><a href="#" style="font-size: 15px;"
+                            class="p-2 bg-danger text-white rounded-circle"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="list-group-item"><a href="#" style="font-size: 15px;"
+                            class="p-2 bg-danger text-white rounded-circle"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed-bottom text-end" style="right: 15px; bottom: 15px;">
+        <a href="#" class="text-white bg-danger py-2 px-3"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

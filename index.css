@@ -1,0 +1,434 @@
+.active{
+    background-color: red;
+    color: white !important;
+}
+.portfolio_list li a:hover{
+    background-color: red !important;
+    color: white !important;
+    transition: all 0.5s;
+}
+
+.navbar_list ul li a:hover{
+    color: red;
+    transition: all 0.5s;
+}
+.header_btn a:hover{
+    background-color: red;
+    transition: all 0.5s;
+}
+.section_cta_btn a:hover{
+    background-color: red !important;
+    transition: all 0.5s;
+    color:white !important;
+}
+.services_child:hover .services_child-icon{
+    background-color: white !important;
+    color: red !important;
+    transition: all 0.5s;
+}
+.portfolio_child:hover .portfolio_child_1{
+    opacity:1 !important;
+    transform: translateY(280%);
+    transition: all 0.5s;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-weight: 500;
+}
+.client_contant_child img:hover{
+    filter: grayscale(0) !important;
+    transition: all 0.5s;
+}
+.footer_contant_child ul li a:hover{
+    color:red !important;
+    transition: all 0.5s;
+}
+.copy_list li a:hover{
+    opacity: .8;
+    transition: all 0.5s;
+    background-color: red;
+}
+.active1{
+    color: red !important;
+}
+.team_child:hover .team_child_icons{
+    display: block !important;
+    transition: all 0.5s;
+}
+.team_child_icons li a:hover{
+    color: red !important;
+    transition: all 0.5s;
+}
+.feature_child_li:hover a{
+    color: red !important;
+    transition: all 0.5s;
+}
+.pricing_btn a:hover{
+    color: red !important;
+    border:2px solid red !important;
+    transition: all 0.5s;
+}
+.pricing_btn2 a:hover{
+    background-color: white !important;
+    color: red !important;
+    transition: all 0.5s;
+}
+.call_btn a:hover{
+    background-color: red !important;
+    color: white !important;
+    border-color: red !important;
+    transition: all 0.5s;
+}
+.locat_child:hover .contact_icon i{
+    background-color: red !important;
+    color: white !important;
+    transition: all 0.5s;
+}
+form input,form textarea{
+    border: 1px solid rgba(211, 211, 211, 0.639);
+    outline: none;
+}
+form input:focus,form textarea:focus{
+    border: 1px solid rgba(0, 0, 255, 0.482);
+    transition: all 0.5s;
+}
+.contact_btn a:hover,.text_btn a:hover{
+    background-color: rgb(255, 68, 68) !important;
+    transition: all 0.5s;
+}
+.tags li a:hover,.next li a:hover{
+    background-color: red !important;
+    color: white !important;
+    transition: all 0.5s;
+}
+.post li div h5:hover,.Categories li a:hover,.text:hover{
+    color: red !important;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+@media screen and (min-width:1280px) {
+    .footer_contant{
+        grid-template-columns: 20% 20% 20% 40% !important;
+    }
+    .header_contant{
+        padding: 10rem 20rem 5rem 20rem !important;
+    }
+}
+@media screen and (max-width:1280px) {
+    .header_contant{
+        padding: 10rem 10rem 5rem 10rem !important;
+    }
+    .navbar_list ul li a{
+        font-size: 14.5px !important;
+    }
+    .navbar_list ul li{
+        padding: 0 0.5rem !important;
+    }
+}
+@media screen and (max-width:1024px) {
+    .section_contact_contant{
+        padding: 5rem 3rem !important;
+    }
+    .section_contact_contant_child{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_blog{
+        flex-direction: column !important;
+    }
+    .section_portfolio_child{
+        grid-template-columns: repeat(2,1fr) !important;
+        gap:5px !important;
+    }
+    .section_pricing{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .section_testimonials{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_services{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .section_about{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_about_img{
+        height: 20rem;
+    }
+    .section_team_contant{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .section_skills_contant{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_clients_contant{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .header_contant{
+        padding: 10rem 5rem 5rem 5rem !important;
+    }
+    .footer_form{
+        grid-template-columns: 50% 30% !important;
+    }
+    .sectionn_features_child{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_cta{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start !important;
+        padding: 0;
+    }
+    .navbar_list1 li{
+        padding: 0.5rem 0 !important;
+    }
+    .navbar_list{
+        display: none !important;
+    }
+    .navbar_list1{
+        flex-direction: column;
+        justify-content: start !important;
+        align-items: start !important;
+        padding: 0;
+    }
+    .burger{
+        display: block !important;
+    }
+    .navbar_list_drop:hover +.drop_down{
+        transform: translate(80px) !important;
+        transition: all 0.5s;
+        opacity: 1;    
+    }
+    .drop_down:hover{
+        transform: translateX(80px) !important;
+        transition: all 0.5s;
+        opacity: 1;
+    }
+    .navbar a:hover{
+        color: red !important;
+        transition: all 0.5s;
+    }
+}
+@media screen and (max-width:640px) {
+    .input_child{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_portfolio_child{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_pricing{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_services{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_team_contant{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .section_clients_contant{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .header_contant{
+        padding: 10rem 3rem 5rem 3rem !important;
+    }
+    .footer_contant{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .footer_copy{
+        grid-template-columns: repeat(1,1fr) !important;
+        text-align: center;
+        justify-content: center;
+    }
+    .copy_list{
+        justify-content:center!important;
+        display:flex !important;
+        padding: 1rem 0;
+    }
+    .section_about_child{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .tags{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .child{
+        height: auto !important;
+    }
+    .blog_icon{
+        flex-direction: column !important;
+        gap: 0 !important;
+        padding: 0 !important;
+    }
+    .blog_icon li{
+        padding: 0 !important;
+    }
+    footer{
+        padding: 3rem 0 !important;
+    }
+    .footer_form{
+        grid-template-columns: 50% 30% !important;
+    }
+}
+.drop_down{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    padding: 0rem 1rem;
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all 0.5s;
+    margin-top: 0.2rem;
+}
+.drop_down:hover{
+    transform: translateX(0px);
+    transition: all 0.5s;
+    opacity: 1;
+}
+.navbar_list_drop:hover +.drop_down{
+    transform: translate(0px);
+    transition: all 0.5s;
+    opacity: 1;
+
+}
+.drop_down ul li{
+    padding: 0.5rem 0;
+}
+.burger{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.line{
+    width: 25px !important;
+    height: 3px !important;
+    background-color: black !important;
+    margin-top: 4px;
+}
+.copy_list{
+    justify-content:end;
+}
+.skill_bar_1{
+    animation-name: "bar_1";
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+.skill_bar_2{
+    animation-name: "bar_2";
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+.skill_bar_3{
+    animation-name: "bar_3";
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+.skill_bar_4{
+    animation-name: "bar_4";
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+.skill_bar_5{
+    animation-name: "bar_5";
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+.skill_bar_6{
+    animation-name: "bar_6";
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+
+@keyframes bar_1{
+    0%{
+        width: 10px;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes bar_2{
+    0%{
+        width: 10px;
+    }
+    50%{
+        width: 40%;
+    }
+    75%{
+        width: 65%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes bar_3{
+    0%{
+        width: 10px;
+    }
+    50%{
+        width: 40%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes bar_4{
+    0%{
+        width: 10px;
+    }
+    50%{
+        width: 40%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes bar_5{
+    0%{
+        width: 10px;
+    }
+    50%{
+        width: 30%;
+    }
+    75%{
+        width: 50%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes bar_6{
+    0%{
+        width: 10px;
+    }
+    50%{
+        width: 30%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
